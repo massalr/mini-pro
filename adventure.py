@@ -17,6 +17,10 @@ elif jawaban == "kanan":
         jawaban = input("ternyata dia tersesat sudah 10 tahun dan memilih untuk tinggal dihutan, lalu kamu di ajak tinggal di hutan juga, ya/tidak : ")
         if jawaban == "ya":
             print(f"selamat {nama}, kamu bahagia hidup bersamanya di dalam hutan!! wkwkwkw")
+        elif jawaban == "tidak":
+            print(f"{nama}, kamu menolak orang yang suka sama kamu :(")
+        else:
+            print("pilihan kamu salah, kamu keluar dari petualangan ini")
     elif jawaban == "abaikan":
         print(f"dia melihat kamu dan kamu di anggap ancaman sehingga kamu di bunuh!! goodbye {nama}")
     else:
